@@ -1,0 +1,124 @@
+@import url(media.css);
+body{
+	margin:0;
+}
+h4{
+	text-transform: uppercase;
+}
+
+.head{
+	background:white;
+	padding:2.5px 0;
+	box-shadow:3px 5px 10px #ccc;
+}
+.head p{
+	text-transform: capitalize;
+	text-align:center;
+   font-size: 16px;
+}
+.head i{color:red;}
+.leftbar{
+
+	margin-top:30px;
+	box-shadow:0 0 5px #999;
+}
+
+#logo{
+	position:relative;
+    background: url(pic.jpg);
+    background-size:cover;
+    height: 264px;
+ 
+}
+.logo_text{
+    float: left;
+    margin: 172px 6px 0 0;
+    text-align: left;
+	color:white;
+}
+.btn-floating {
+	text-align:center;
+	font-size: 14px;
+	
+}
+.btn-large i{
+font-size: 38px;
+
+}
+.lang{
+	position:absolute;
+	bottom:-24px;
+
+}
+.leftbar .section{
+	background:#1E88E5;
+}
+.texthead{
+	color:white;
+	text-align:right;
+	margin:10px 10px 0 0;
+	padding:10px;
+}
+.texthead a{
+	color:white;
+}
+.texthead p{
+	font-size: 14px;
+	text-align:left;
+
+}
+.texthead i {
+	font-size: 22px;
+}
+.pro_skills{
+	text-align:left;
+	margin:10px 10px 0 0;
+	padding:10px;
+	color:white;
+}
+.pro_skills .fa{
+	font-size: 20px;
+}
+ .progress{
+	background:#1565C0;
+}
+.pro_skills .determinate{
+	background:#fff;
+}
+
+/* end of leftbar */
+.leftbar i:hover{
+	background: linear-gradient(to left, #fd746c , #ff9068);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	transition:.5s;
+}
+.blocks{
+	margin-top:30px;
+	box-shadow:0 2px 5px #999;
+	padding:0 0 20px 0;
+}
+
+.blocks  i{
+	font-size: 38px;
+	float:left;
+	color:#888;
+	padding: 0 0 0 20px;
+}
+
+.work_exp{
+	text-align:left;
+	width:80%;
+	margin: -28px 0 0 111px;
+}
+.work_exp h4{
+	color:#888;
+	font-weight: 700;
+
+}
+.work_exp ul i {
+	font-size: 36px;
+	color:#1E88E5;
+
+
+/* Responsive Media */
